@@ -1,20 +1,9 @@
-- 👋 Hi, I’m @wended8888
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
 
-<!---
 wended8888/wended8888 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
 --->
 /*******************************
-⚠️🛝此捷径仅适用于本地重写⚠️🛝
-  🧚🏻‍♂️作者：至简
-  🎈交流群：993539991
-🫧脚本名称:微信听书🪶
-🫧建议配合working copy一起食用
-✈️下载地址https://apps.apple.com/app/id896694807✈️
+
 *******************************/
 var body=$response.body;
 body = body.replace(/name\":"心向远方"/g,'name":"至简"');
