@@ -1,0 +1,18 @@
+#!name=shzb
+#!desc=shzb
+#!icon=https://github.com/Toperlock/Quantumult/raw/main/icon/Doraemon/Doraemon-1011.png
+
+[Rewrite]
+
+^http[s]?:\/\/gitee\.com\/ReactJSTeams\/next.js\/raw\/master\/examples\/nested-components\/.gitignore - reject-200
+
+[Script]
+
+#神户直播
+http-response ^http[s]?:\/\/.*\.liuniukeji\.(heshuangde|cdwksjx)\.com\/index\.php\/App\/(Account\/Login|User\/Info|Index\/Update|Host\/Info).*$ script-path=https://raw.githubusercontent.com/WeiRen0/Scripts/main/shzb.js, requires-body=true, timeout=60 ,tag=shzb_16
+
+http-request ^http[s]?:\/\/.*\.liuniukeji\.(heshuangde|cdwksjx)\.com\/index\.php\/App\/User\/Info.*$ script-path=https://raw.githubusercontent.com/WeiRen0/Scripts/main/shtk.js, timeout=60 ,tag=shtk_18
+
+[MITM]
+
+hostname = *cdwksjx*,*heshuangde*,gitee.com
