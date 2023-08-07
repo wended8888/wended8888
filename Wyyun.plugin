@@ -1,0 +1,12 @@
+#!name=网易云解锁VIP
+#!desc=wyun
+#!icon=https://github.com/Toperlock/Quantumult/raw/main/icon/Doraemon/Doraemon-1021.png
+
+[Script]
+
+# > 网易云解锁VIP
+http-request ^http[s]?:\/\/.+music.+(player\/url|playlist|entrance|\/eapi\/search\/).*$ script-path=https://raw.githubusercontent.com/WeiRen0/Scripts/main/wyun.js, timeout=60 ,tag=wyun_15
+
+[MITM]
+
+hostname = *.music.163.com
