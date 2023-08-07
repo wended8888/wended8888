@@ -1,0 +1,11 @@
+#!name=proKnockOut
+#!desc=proKnockOut
+#!icon=https://github.com/Toperlock/Quantumult/raw/main/icon/Doraemon/Doraemon-1079.png
+
+[Script]
+
+http-response https://buy.itunes.apple.com/verifyReceipt script-path=https://raw.githubusercontent.com/Marol62926/MarScrpt/main/proKnockOut.js, requires-body=true, timeout=60 ,tag=proKnockOut_4
+
+[MITM]
+
+hostname = buy.itunes.apple.com
