@@ -1,0 +1,11 @@
+#!name=LanRenTS
+#!desc=LanRen
+#!icon=https://github.com/Toperlock/Quantumult/raw/main/icon/Doraemon/Doraemon-1029.png
+
+[Script]
+
+http-response ^http[s]?:\/\/((shapi|hapi)(\.mting\.info)|(m\.lrts\.me)|(gzapi\.mting\.info))\/(app|yyting)\/(getVipPageData|userclient\/ClientGetUserInfo|usercenter\/ThirdPartyLogin).*$ script-path=https://raw.githubusercontent.com/WeiRen0/Scripts/main/LanRen.js, requires-body=true, timeout=60 ,tag=LanRen_13
+
+[MITM]
+
+hostname = *.mting.*,m.lrts.me,hapi.mting.info
