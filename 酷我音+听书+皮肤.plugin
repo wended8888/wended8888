@@ -13,7 +13,7 @@ http://script.hub/file/_start_//*
 
 [rewrite_local]
 
-^https?:\/\/.*\.(kuwo|lrts)\.(cn|me)\/(a\.p|music\.pay|(vip\/(v2|enc)\/(theme|user\/vip))|(EcomResource|(Mobile)?Ad)Serv(er|ice)).* url script-response-body https://raw.githubusercontent.com/gjwj666/qx/main/kw.js
+^https?:\/\/.*\.(kuwo|lrts)\.(cn|me)\/(a\.p|music\.pay|(vip\/(v2|enc)\/(theme|user\/vip))|(EcomResource|(Mobile)?Ad)Serv(er|ice)).* url script-response-body https://raw.githubusercontent.com/wended8888/wended8888/edit/main/酷我音%2B听书%2B皮肤.plugin
 
 [mitm] 
 
